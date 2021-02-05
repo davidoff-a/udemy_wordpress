@@ -10,6 +10,21 @@
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.divider {
+    margin: 18px auto 0 auto;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+
 .promo {
     height: 800px;
     padding: 40px 0 60px 0;
@@ -118,3 +133,26 @@ h1.promo__title {
 .promo__more-down {
     margin-top: 5px;
 }
+.webinar {
+    min-height: 607px;
+    padding: 85px 0 75px 0;
+    background: #EFEFEF;
+}
+
+.webinar__subtitle {
+    margin-top: 18px;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.webinar__perks {
+    margin: 45px auto 0 auto;
+    display: grid;
+    grid-template: 205px minmax(45px, auto) / repeat(3, 370px);
+}
+
+.webinr__perks-img {}
+
+.webinar__perks-descr {}
