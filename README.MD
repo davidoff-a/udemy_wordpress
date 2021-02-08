@@ -1,5 +1,5 @@
 # UDEMY_WORDPRESS
-## about project
+## ABOUT PROJECT
 It's one of my learning projects. I'll try to make a site.
 
 ## TODO
