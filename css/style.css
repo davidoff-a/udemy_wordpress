@@ -152,43 +152,43 @@ h1.promo__title {
     display: grid;
     grid-template: 1fr / repeat(3, 370px);
     column-gap: 15px;
-    }
+}
 
-    .webinar__perks-item {
-        display: grid;
-        grid-template: 205px minmax(45px, auto) / 1fr;
-        text-align: center;
-        row-gap: 26px;
-    }
+.webinar__perks-item {
+    display: grid;
+    grid-template: 205px minmax(45px, auto) / 1fr;
+    text-align: center;
+    row-gap: 26px;
+}
 
-    .webinar__perks-img {
-        width: 100%;
-    }
+.webinar__perks-img {
+    width: 100%;
+}
 
-    .webinar__perks-descr {
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 21px;
-        color: #4A4A4A;
-    }
+.webinar__perks-descr {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
 
-    .optimization {
-        min-height: 547px;
-        padding: 108px 0 74px 0;
-    }
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 74px 0;
+}
 
-    .optimization__wrapper {
-        margin: 0 0 0 auto;
-        position: relative;
-        width: 750px;
-        min-height: 312px;
+.optimization__wrapper {
+    margin: 0 0 0 auto;
+    position: relative;
+    width: 750px;
+    min-height: 312px;
 
-    }
+}
 
-    .optimization__title {
-        font-weight: 900;
-        color: #299CBD;
-        text-align: left;
+.optimization__title {
+    font-weight: 900;
+    color: #299CBD;
+    text-align: left;
 }
 
 .optimization__descr {
@@ -204,4 +204,50 @@ h1.promo__title {
     top: -62px;
     left: -634px;
     z-index: -1;
+}
+.finish {
+    padding: 85px 0 70px 0;
+    height: 450px;
+    background: url('../img/finish_learning.jpg') center center/cover no-repeat;
+}
+
+.white {
+    color: #EFEFEF;
+    text-align: center;
+}
+
+.finish__abilities {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.finish_ability {
+    min-height: 185px;
+    width: 230px;
+    margin: 0 10px;
+}
+
+.finish__ability-circle {
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    background: #B4E2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish__ability-img {
+    display: block;
+}
+
+.finish__ability-descr {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+    text-align: center;
 }
