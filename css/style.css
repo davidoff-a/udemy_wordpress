@@ -150,9 +150,58 @@ h1.promo__title {
 .webinar__perks {
     margin: 45px auto 0 auto;
     display: grid;
-    grid-template: 205px minmax(45px, auto) / repeat(3, 370px);
+    grid-template: 1fr / repeat(3, 370px);
+    column-gap: 15px;
+    }
+
+    .webinar__perks-item {
+        display: grid;
+        grid-template: 205px minmax(45px, auto) / 1fr;
+        text-align: center;
+        row-gap: 26px;
+    }
+
+    .webinar__perks-img {
+        width: 100%;
+    }
+
+    .webinar__perks-descr {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+        color: #4A4A4A;
+    }
+
+    .optimization {
+        min-height: 547px;
+        padding: 108px 0 74px 0;
+    }
+
+    .optimization__wrapper {
+        margin: 0 0 0 auto;
+        position: relative;
+        width: 750px;
+        min-height: 312px;
+
+    }
+
+    .optimization__title {
+        font-weight: 900;
+        color: #299CBD;
+        text-align: left;
 }
 
-.webinr__perks-img {}
+.optimization__descr {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
 
-.webinar__perks-descr {}
+}
+
+.optimization__img {
+    position: absolute;
+    top: -62px;
+    left: -634px;
+    z-index: -1;
+}
