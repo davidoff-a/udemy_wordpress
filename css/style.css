@@ -25,6 +25,22 @@ h2 {
     background: #F9BF3B;
 }
 
+.btn {
+    display: block;
+    padding: 24px 15px;
+    width: 320px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 0px;
+    color: #fff;
+    border-radius: 4px;
+}
+
 .promo {
     height: 800px;
     padding: 40px 0 60px 0;
@@ -82,9 +98,6 @@ h1.promo__title {
     line-height: 80px;
     text-transform: uppercase;
 }
-
-.promo__subtitle {}
-
 .promo__descr {
     margin-top: 25px;
     font-weight: 300;
@@ -100,20 +113,8 @@ h1.promo__title {
     text-transform: uppercase;
 }
 
-.promo__btn {
+.btn.promo__btn {
     margin: 72px auto 0 auto;
-    padding: 24px 15px;
-    width: 320px;
-    height: 72px;
-    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    font-size: 21px;
-    line-height: 24px;
-    text-transform: uppercase;
-    font-weight: 300;
-    border: 0px;
-    color: #fff;
-
 }
 
 .promo__more {
@@ -250,4 +251,101 @@ h1.promo__title {
     line-height: 20px;
     color: #EFEFEF;
     text-align: center;
+}
+.gift {
+    padding: 88px 0;
+    height: 631px;
+    background-color: #EFEFEF;
+}
+
+.gift__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift__descr {
+    margin-top: 45px;
+    width: 1160px;
+    height: 113px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+}
+
+.btn.gift__btn {
+    margin: 50px auto 0 auto;
+}
+
+.first {
+    padding: 90px 0 50px 0;
+    height: 512px;
+}
+
+.first__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first__title {
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 477px;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first_date {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.first_invite {
+    width: 578px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+footer {
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+    height: 169px;
+}
+
+.footer__wrapper {
+    margin: 0 auto;
+    width: 407px;
+    height: 43px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #888888;
+}
+
+.footer__menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__menu li:first-child {
+    padding-right: 18px;
+    border-right: 1px solid #888888;
+}
+
+.footer__menu a {
+    text-decoration: none;
+    color: #888888;
 }
